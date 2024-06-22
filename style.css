@@ -1,0 +1,92 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.darkblue{
+    background-color: rgba(3, 3, 43, 0.872);
+}
+.lightblue{
+    background-color: rgba(10, 10, 100, 0.559);
+}
+.w-100{
+    border-radius: 20px;
+    height: 10vh;
+    margin: 10px;
+}
+#bg-img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://ifrd.4rabet4.com/img/main/slot2.png");
+}
+#img-size{
+    height: 15vh;
+    width:25vw;
+
+}
+.vh-50{
+    height: 110px;
+}
+hr{
+    color: azure;
+}
+.red{
+    background-color: rgb(230, 5, 5);
+}
+.bglinear{
+    background-image:linear-gradient(green blue);
+}
+#bg-img2{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://ifrd.4rabet4.com/img/main/sport.png");
+}
+#bg-img3{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://upload.4rabet4.com/storage/233545/BigMoneyBangJune-(2).png");
+}
+a{
+    color: rgb(115, 105, 105);
+}
+a:hover{
+    color: beige;
+}
+#container-animation{
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start:150px;
+    animation-range-end: 150px;
+}
+img{
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start:150px;
+    animation-range-end: 500px;
+}
+@keyframes fade-in{
+    from{ scale:0.5;opacity: 0;}
+    to{scale:1;opacity: 1;}
+   }
+
+.crimson{
+    background-color: crimson;
+}
+.yellow{
+    background-color: rgb(245, 222, 18);
+}   
+.blue{
+    background-color: rgb(69, 28, 193);
+}
+.brown{
+    background-color: rgb(121, 50, 2);
+}
+.oranged{
+    background-color: rgb(255, 60, 0);
+}
+.pink{
+    background-color: rgb(8, 67, 170);
+}
+.grey{
+    background-color: rgb(128, 8, 239);
+}
